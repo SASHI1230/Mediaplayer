@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.allvideos1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.allvideos2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+
+.video {
+    display: inline-block;
+}
+
+.video>video {
+    height: auto;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 20px 1px rgba(0, 0, 0, 0.35);
+}
+
+
+.video p{
+    text-align: center;
+    font-size: 21px;
+    margin-top: 4px;
+}
